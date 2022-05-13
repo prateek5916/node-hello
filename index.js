@@ -3,7 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'MY NAME IS PRATEEK KHANDELWAL AND I AM NOT A TERRIOST!\n'
+  const msg = 'MY NAME IS  KHANDELWAL AND I AM NOT A TERRIOST!\n'
   res.end(msg);
 });
 
