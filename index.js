@@ -16,6 +16,7 @@ var rand = function() {
 };
 
 var token = function() {
+  console.log(token);
     return rand() + rand(); // to make it longer
 };
 
